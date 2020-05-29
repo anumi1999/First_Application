@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ImgTS"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/tony_stark" />
+
+        <TextView
+            android:id="@+id/txtTony"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tony Stark"
+            android:layout_toRightOf="@id/ImgTS"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tony@starkindustries.com"
+            android:layout_toRightOf="@id/ImgTS"
+            android:layout_below="@id/txtTony"
+            android:textStyle="italic"
+            android:layout_margin="15dp"
+            android:textColor="#4a148c"
+            />
+        <TextView
+            android:id="@+id/txtPhn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 11155555"
+            android:layout_toRightOf="@id/ImgTS"
+            android:layout_below="@id/txtEmail"
+            android:textStyle="normal"
+            android:layout_margin="15dp"
+            android:textColor="#0288d1"
+            />
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ImgSR"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/captain_america" />
+
+        <TextView
+            android:id="@+id/txtSteve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Steve Rogers"
+            android:layout_toRightOf="@id/ImgSR"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:id="@+id/txtEmail1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="steve@starkindustries.com"
+            android:layout_toRightOf="@id/ImgSR"
+            android:layout_below="@id/txtSteve"
+            android:textStyle="italic"
+            android:layout_margin="15dp"
+            android:textColor="#4a148c"
+            />
+        <TextView
+            android:id="@+id/txtPhn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 22255555"
+            android:layout_toRightOf="@id/ImgSR"
+            android:layout_below="@id/txtEmail1"
+            android:textStyle="normal"
+            android:layout_margin="15dp"
+            android:textColor="#0288d1"
+            />
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ImgThor"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/thor" />
+
+        <TextView
+            android:id="@+id/txtThor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thor Odinson"
+            android:layout_toRightOf="@id/ImgThor"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:id="@+id/txtEmail2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="thor@starkindustries.com"
+            android:layout_toRightOf="@id/ImgThor"
+            android:layout_below="@id/txtThor"
+            android:textStyle="italic"
+            android:layout_margin="15dp"
+            android:textColor="#4a148c"
+            />
+        <TextView
+            android:id="@+id/txtPhn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 33355555"
+            android:layout_toRightOf="@id/ImgThor"
+            android:layout_below="@id/txtEmail2"
+            android:textStyle="normal"
+            android:layout_margin="15dp"
+            android:textColor="#0288d1"
+            />
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ImgWidow"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/widow" />
+
+        <TextView
+            android:id="@+id/txtwid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Natasha"
+            android:layout_toRightOf="@id/ImgWidow"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:id="@+id/txtEmail3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="widow@starkindustries.com"
+            android:layout_toRightOf="@id/ImgWidow"
+            android:layout_below="@id/txtwid"
+            android:textStyle="italic"
+            android:layout_margin="15dp"
+            android:textColor="#4a148c"
+            />
+        <TextView
+            android:id="@+id/txtPhn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 44455555"
+            android:layout_toRightOf="@id/ImgWidow"
+            android:layout_below="@id/txtEmail3"
+            android:textStyle="normal"
+            android:layout_margin="15dp"
+            android:textColor="#0288d1"
+            />
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ImgHulk"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/hulk" />
+
+        <TextView
+            android:id="@+id/txthulk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr Bruce Banner"
+            android:layout_toRightOf="@id/ImgHulk"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:id="@+id/txtEmail5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="thor@starkindustries.com"
+            android:layout_toRightOf="@id/ImgHulk"
+            android:layout_below="@id/txthulk"
+            android:textStyle="italic"
+            android:layout_margin="15dp"
+            android:textColor="#4a148c"
+            />
+        <TextView
+            android:id="@+id/txtPhn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 55555555"
+            android:layout_toRightOf="@id/ImgHulk"
+            android:layout_below="@id/txtEmail5"
+            android:textStyle="normal"
+            android:layout_margin="15dp"
+            android:textColor="#0288d1"
+            />
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ImgBlack"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/black_panther" />
+
+        <TextView
+            android:id="@+id/txtblack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black Panther"
+            android:layout_toRightOf="@id/ImgBlack"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:id="@+id/txtEmail6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BP@starkindustries.com"
+            android:layout_toRightOf="@id/ImgBlack"
+            android:layout_below="@id/txtblack"
+            android:textStyle="italic"
+            android:layout_margin="15dp"
+            android:textColor="#4a148c"
+            />
+        <TextView
+            android:id="@+id/txtPhn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 66655555"
+            android:layout_toRightOf="@id/ImgBlack"
+            android:layout_below="@id/txtEmail6"
+            android:textStyle="normal"
+            android:layout_margin="15dp"
+            android:textColor="#0288d1"
+            />
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>
